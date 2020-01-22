@@ -338,7 +338,7 @@ end
 #   longest_name
 # end
 
-def long_name_steals_a_ton
+def long_name_steals_a_ton?
   counter =0
   total_players=game_hash[:home][:players].length
   most_steals=0
