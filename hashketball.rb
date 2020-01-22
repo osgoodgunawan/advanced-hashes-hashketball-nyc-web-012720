@@ -303,8 +303,11 @@ def player_with_longest_name
       array.push(counter[:player_name])
   end
 end
-#max_by method give you the max 
- array.max_by {|max| max.length}
+#max_by method give you the maximum of the array 
+#min_by method give you the minimum of the array
+#here is asking for max of the length name 
+ array.max_by {|i| i.length} 
+ #this will layout the length of each person name and return the maximum among all 
 end  
 
 
