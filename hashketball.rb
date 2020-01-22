@@ -298,7 +298,9 @@ end
 def player_with_longest_name
   
   array=[]
-  game_hash.each d
+  game_hash.each do |home_away, the_rest|
+    the_rest.each do |players, player_name|
+      
   
   
   
