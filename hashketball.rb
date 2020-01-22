@@ -303,7 +303,7 @@ def player_with_longest_name
       array.push([counter][:player_name])
   end
 end
- array.max {|max| max.length}
+ array.max_by{|max| max.length}
 end  
 #   hash=game_hash
 #   counter =0
