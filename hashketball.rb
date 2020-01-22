@@ -352,7 +352,7 @@ def long_name_steals_a_ton?
     
     if game_hash[:away][:players][counter][:steals]>most_steals
      most_steals= game_hash[:away][:players][counter][:steals]
-     name_of_most_steals=ame_hash[:away][:players][counter][:player_name]
+     name_of_most_steals=game_hash[:away][:players][counter][:player_name]
    end
 
   counter +=1
