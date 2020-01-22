@@ -305,6 +305,9 @@ def player_with_longest_name
 end
  array.max_by{|x| x.length}
 end  
+
+
+
 #   hash=game_hash
 #   counter =0
 #   total_players=hash[:home][:players][counter][:player_name].length
