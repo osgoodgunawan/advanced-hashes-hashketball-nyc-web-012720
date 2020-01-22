@@ -297,14 +297,14 @@ end
 
 def player_with_longest_name
   
- names = []
-  game_hash.each do |home_away, details|
-    details[:players].each do |i|
-      names << i[:player_name]
-    end
+  array=[]
+  game_hash.each do |home_away, the_rest|
+    the_rest[:players].each do |i|
+      array << [i][:player_name]
   end
-  names.max_by {|x| x.length}
 end
+ array.max_by {|x| x.length}
+end  
 
 
 
