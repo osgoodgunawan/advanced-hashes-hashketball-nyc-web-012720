@@ -303,8 +303,9 @@ def player_with_longest_name
       array.push([i][:player_name])
   end
 end
- array.max_by{|x| x.length}
+ array.max_by {|x| x.length}
 end  
+
 
 
 
