@@ -303,6 +303,7 @@ def player_with_longest_name
       array.push(counter[:player_name])
   end
 end
+#max_by method give you the max 
  array.max_by {|max| max.length}
 end  
 
